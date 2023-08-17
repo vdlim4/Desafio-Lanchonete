@@ -1,0 +1,35 @@
+.painel {
+    width: 800px;
+    margin: auto;
+    border: 1px solid;
+}
+.titulo-principal {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cardapio {
+    text-align: center;
+    width: 500px;
+    border: 1px solid;
+    margin: auto;
+}
+
+.cardapio td {
+    border: 1px solid;
+    height: 25px;
+}
+
+.cardapio-base {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.inputs-caixa {
+    text-align: center;
+}
+
+.finalizar {
+    text-align: center;
+    margin: 20px;
+}

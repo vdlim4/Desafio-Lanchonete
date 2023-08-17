@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lanchonete DB</title>
+</head>
+<body>
+    <main>
+        <div class="painel">
+            <div class="principal">
+                <h1 class="titulo-principal">Caixa DB</h1>
+                <table class="cardapio">
+                    <tr class="cardapio-base">
+                        <td>Código</td>
+                        <td>Descrição</td>
+                        <td>Preço</td>
+                    </tr>
+                    <tr>
+                        <td>cafe</td>
+                        <td>Café</td>
+                        <td>R$ 3,00</td>
+                    </tr>
+                    <tr>
+                        <td>chantily</td>
+                        <td>Chantily (extra do Café)</td>
+                        <td>R$ 1,50</td>
+                    </tr>
+                    <tr>
+                        <td>suco</td>
+                        <td>Suco Natural</td>
+                        <td>R$ 6,20</td>
+                    </tr>
+                    <tr>
+                        <td>sanduiche</td>
+                        <td>Sanduíche</td>
+                        <td>R$ 6,50</td>
+                    </tr>
+                    <tr>
+                        <td>queijo</td>
+                        <td>Queijo (extra do Sanduíche)</td>
+                        <td>R$ 2,00</td>
+                    </tr>
+                    <tr>
+                        <td>salgado</td>
+                        <td>Salgado</td>
+                        <td>R$ 7,25</td>
+                    </tr>
+                    <tr>
+                        <td>combo1</td>
+                        <td>1 Suco e 1 Sanduíche</td>
+                        <td>R$ 9,50</td>
+                    </tr>
+                    <tr>
+                        <td>combo2</td>
+                        <td>1 Café e 1 Sanduíche</td>
+                        <td>R$ 7,50</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="inputs-caixa">
+                <p>Adicionar produto (Cód.):<br> <input type="text" class="produto"></p>
+                <p>Quantidade: <input type="number" name="" min="1" max="10" class="quantidade"></p>
+                <button class="botao-add">ADD</button>
+            </div>
+            <div class="finalizar">
+                <p>Forma de pagamento (1 - Dinheiro / 2 - Débito / 3 - Crédito): <input type="number" min="1" max="3" class="pgto"></p>
+                <button class="botao-finalizar">Finalizar Pedido</button>
+                <div class="res">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="caixa-da-lanchonete.js"></script>
+</body>
+</html>
